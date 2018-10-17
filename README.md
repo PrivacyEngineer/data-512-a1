@@ -1,6 +1,6 @@
 THE PROJECT
 
-Title: English Wikipedia page views 2007-2018
+Title: English Wikipedia page views 2007-2018.
 Homework A1, version 1.0.
 
 Goal: To construct, analyze and publish a dataset of monthly English Wikipedia mobile and desktop page traffic from the earliest to the most recent month were data is available.
@@ -68,5 +68,7 @@ DATA ANALYSIS
 Goal is to analyze monthly English Wikipedia mobile and desktop page traffic from the earliest to the most recent month were data is available.
 Only assumption is that data is complete and correct, except for a few outliers with low values at either the end or beginning of collection periods. 
 These outliers were discarded. We then performed a visual inspection of all data with satisfactory results. 
+
 Final results, the pageviews graph, was generated using the same Python 3.0 program that can be found in the Jupyter notebook in ../src/hcds-a1-data-curation.ipynb.
+
 The .csv file can be found in ../data_clean/en-wikipedia-traffic_200701-201809.csv
