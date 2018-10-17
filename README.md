@@ -34,9 +34,13 @@ When comparing the data obtained through each of the two APIs it is important to
 For current format we only downloaded pageviews for users, no spider data is included.
 The five raw data data sets in JSON format are:
 ../raw_data/pagecounts_desktop-site_200712-201608.json
+
 ../raw_data/pagecounts_mobile-site_201412-201608.json
+
 ../raw_data/pageviews_desktop_201507-201809.json
+
 ../raw_data/pageviews_mobile-app_201507-201809.json
+
 ../raw_data/pageviews_mobile-web_201507-201809.json
  
 DATA PROCESSING
