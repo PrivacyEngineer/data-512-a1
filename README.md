@@ -2,8 +2,11 @@ THE PROJECT
 
 Title: English Wikipedia page views 2007-2018
 Homework A1, version 1.0.
+
 Goal: To construct, analyze and publish a dataset of monthly English Wikipedia mobile and desktop page traffic from the earliest to the most recent month were data is available.
+
 Purpose: Demonstrate that we can follow best practies for open scientific research in designing and implementing a project, so that anyone can understand the process we followed and reproduce the results.
+
 All files listed in this document can be found in: https://github.com/PrivacyEngineer/data-512-a1
 
 DATA ACQUISITION
