@@ -17,11 +17,15 @@ Data was gathered on 10/15/2018 form the Wikimedia REST API, Wikimedia Foundatio
 We used two REST APIs:
 
 1.- The Legacy pagecounts API (for monthly data December 2007 to July 2016): 
+
 Documentation: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts
+
 Endpoint: https://wikimedia.org/api/rest_v1/#!/Pagecounts_data_(legacy)/get_metrics_legacy_pagecounts_aggregate_project_access_site_granularity_start_end
 
 2.- The Pageviews API (for monthly data July 2015 through September 2018):
+
 Documentation: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews
+
 Endpoint: https://wikimedia.org/api/rest_v1/#!/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end
 
 Two data sets were downloaded using the legacy API, one for desktop and one for mobile access. 
@@ -71,4 +75,4 @@ These outliers were discarded. We then performed a visual inspection of all data
 
 Final results, the pageviews graph, was generated using the same Python 3.0 program that can be found in the Jupyter notebook in ../src/hcds-a1-data-curation.ipynb.
 
-The .csv file can be found in ../data_clean/en-wikipedia-traffic_200701-201809.csv
+Simply running this program will generate an updated version of the graph.
